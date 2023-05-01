@@ -1,11 +1,19 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/board">Board</router-link>
-  </div>
+  <pageHeader/>
   <router-view/>
 </template>
+
+<script>
+import PageHeader from '@/components/PageHeader'
+
+
+export default {
+  name : 'App',
+  components: {
+    PageHeader
+  }
+}
+</script>
 
 <style>
 #app {
@@ -26,6 +34,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: black;
 }
 </style>

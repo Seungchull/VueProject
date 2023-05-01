@@ -19,6 +19,21 @@ const routes = [
     path: '/board',
     name: 'BoardList',
     component: () => import('../views/BoardList.vue')
+  },
+  {
+    path: '/boardwrite',
+    name: 'BoardWrite',
+    component: () => import('../views/BoardWrite.vue')
+  },
+  {
+  path: '/login',
+  name: 'LoginView',
+  component: () => import('../views/LoginView.vue')
+  },
+  {
+    path:'/signup',
+    name: 'SignUpView',
+    component: () => import('../views/SignUpView.vue')
   }
 ]
 

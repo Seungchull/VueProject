@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>포인트 충전 페이지</h1>
   </div>
 </template>
